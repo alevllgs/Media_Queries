@@ -24,8 +24,29 @@ body {
     grid-area: header;
     text-align: center;
     color: white;
-    font-size: 125%;
-    text-shadow: 2px 2px 5px red;
+
+}
+
+.flex_header{
+    display: flex;
+
+}
+
+.icono{
+    display: flex;
+    gap: 5px;
+    background-color: orange;
+
+}
+
+
+
+.barra{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+
 }
 
 .nav {
