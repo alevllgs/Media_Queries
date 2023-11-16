@@ -18,7 +18,7 @@ body {
         'nav'
         'main'
         'footer';
-    grid-template-rows: 10% 70% 10% 10%;
+    grid-template-rows: 10% 10% 70% 10%;
     grid-template-columns: 100%
 }
 
@@ -30,6 +30,8 @@ header{
     display: flex;
 
 }
+
+
 .icono{
     display: flex;
     gap: 5px;
@@ -52,4 +54,48 @@ nav{
 }
 
 main{background-color: powderblue;}
+
+
+.flex_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1ed227;
+    gap: 20px;
+}
+
+.button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+
 footer{background-color: mediumaquamarine;}
