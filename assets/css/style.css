@@ -8,116 +8,48 @@ body {
     background-color: rgb(166, 166, 166);
 }
 
+
 .grid-container {
     display: grid;
+    width: 100vw;
+    height: 100vh;
     grid-template-areas:
-        'header header'
-        'nav main'
-        'footer footer';
-    grid-template-rows: 50px 1fr 50px;
-    grid-template-columns: 180px 1fr;
+        'header'
+        'nav'
+        'main'
+        'footer';
+    grid-template-rows: 10% 70% 10% 10%;
+    grid-template-columns: 100%
 }
 
-
-.header {
-    background-color: rgb(4, 4, 141);
-    grid-area: header;
-    text-align: center;
-    color: white;
-
+header{
+    background-color: blue;
 }
 
 .flex_header{
     display: flex;
 
 }
-
 .icono{
     display: flex;
     gap: 5px;
     background-color: orange;
+    color: white;
 
 }
-
-
 
 .barra{
     background-color: blueviolet;
     display: flex;
     justify-content: flex-end;
-    gap: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
 
 }
 
-.nav {
-    background-color: rgb(166, 166, 166);
-    grid-area: nav;
-    padding: 6%;
+nav{
+    background-color: beige;
 }
 
-.main {
-    grid-area: main;
-}
-
-.footer {
-    grid-area: footer;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    color: black;
-
-}
-
-
-
-.box {
-    margin: 0px;
-}
-
-
-.grid-discos {
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-.discos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 15px;
-    background-color: rgb(255, 255, 255);
-}
-
-.img_disco {
-    height: 60%;
-}
-
-.texto {
-    height: 20%;
-    width: 100%;
-    padding-top: 12%;
-    text-align: center;
-    font-size: 80%;
-}
-
-
-.boton {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding-bottom: 5%;
-    height: 20%;
-    width: 40%;
-}
-
-button {
-    background-color: rgb(4, 4, 141);
-    color: white;
-    height: 100%;
-    width: 100%;
-}
-
-.boton buttom {
-    height: 100%;
-    width: 100%;
-}
+main{background-color: powderblue;}
+footer{background-color: mediumaquamarine;}
