@@ -74,6 +74,13 @@ footer {
 
 }
 
+.entrada{
+    width: 90%;
+ 
+}
+
+.select{width: 100%;}
+
 .flex_main{
     display: flex;
     flex-wrap: wrap;
